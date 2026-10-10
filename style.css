@@ -1,0 +1,206 @@
+body {
+    font-family: 'Space Mono', Helvetica, sans-serif;
+    background-color: black;
+    margin: 40px;
+    color: white;
+    padding: 0;
+}
+
+/* Navigation buttons */
+
+
+nav {
+    position: static;
+    width: 100%;
+    margin: 25px auto 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/*
+
+nav {
+    position: static;
+    float: none;
+    width: auto;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+*/
+
+
+nav a {
+    display: inline-block;
+    padding: 12px 22px;
+    border: 1px solid white;
+    border-radius: 25px;
+
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #87dfff;
+    color: black;
+    border-color: #87dfff;
+}
+
+
+header{
+    width: 700px; margin: auto;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    color:white;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
+header img{
+    width: 700px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+main{
+    width: 700px; 
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+
+footer{
+    margin-top: 20px;
+    min-height: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: right;
+    font-style: italic;
+    color:white;
+}
+
+
+/* INTRODUCTION PAGE */
+
+body.intro-page {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    font-family: 'Space Mono', monospace;
+}
+
+/* p5.js background */
+
+#p5-background {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+}
+
+/* Main content */
+
+.intro-content {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.intro-content h1 {
+    font-size: clamp(32px, 5vw, 70px);
+    margin: 0 0 20px;
+    max-width: 900px;
+}
+
+.intro-content p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Navigation buttons */
+
+.intro-nav {
+    position: static;
+    float: none;
+    width: auto;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    color:black;
+}
+
+.intro-nav a {
+    display: inline-block;
+    padding: 12px 22px;
+    border: 1px solid white;
+    border-radius: 25px;
+
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+
+    transition: 0.3s;
+}
+
+.intro-nav a:hover {
+    background-color: #87dfff;
+    color: black;
+    border-color: #87dfff;
+}
+
+/* Footer */
+
+.intro-footer {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 1;
+    font-size: 11px;
+    color: white;
+}
+
+/* WEB PAGES NAVIGATION */
+
+header nav {
+    gap: 12px;
+    margin-top: 20px;
+}
+
+header nav a {
+    font-size: 14px;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
